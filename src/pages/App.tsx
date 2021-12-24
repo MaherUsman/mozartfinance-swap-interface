@@ -37,7 +37,7 @@ const BodyWrapper = styled.div`
   overflow-x: hidden;
   z-index: 1;
   justify-content: center;
-  background-image: url('/images/group-pancake.svg');
+  // background-image: url('/images/group-pancake.svg');
   background-repeat: no-repeat;
   background-position: bottom 24px center;
   background-size: 90%;
@@ -47,12 +47,12 @@ const BodyWrapper = styled.div`
   }
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
-      url('/images/mozart-playing.png'), url('/images/mozart-standup-2.png');
-    background-repeat: no-repeat;
-    background-position: center 420px, 10% 230px, 90% 230px;
-    background-size: contain, 266px, 266px;
-    min-height: 90vh;
+    // background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
+    //   url('/images/mozart-playing.png'), url('/images/mozart-standup-2.png');
+    // background-repeat: no-repeat;
+    // background-position: center 420px, 10% 230px, 90% 230px;
+    // background-size: contain, 266px, 266px;
+    // min-height: 90vh;
   }
 `
 
